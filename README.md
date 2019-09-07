@@ -5,7 +5,7 @@
 You can add this package using following commands:
 
 ```
-npm i novaposhta
+npm i novaposhta_3
 ```
 
 ```
