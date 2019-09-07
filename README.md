@@ -9,7 +9,7 @@ npm i novaposhta_3
 ```
 
 ```
-yarn add novaposhta
+yarn add novaposhta_3
 ```
 
 ## Usage
@@ -17,7 +17,7 @@ yarn add novaposhta
 Basic example:
 
 ```javascript
-import NovaPoshta from 'novaposhta';
+import NovaPoshta from 'novaposhta_3';
 
 const api = new NovaPoshta({ apiKey: '...' });
 
@@ -29,7 +29,7 @@ api.address.getCities({ Ref: "ebc0eda9-93ec-11e3-b441-0050568002cf" }).then((jso
 Winston Logger:
 
 ```javascript
-import NovaPoshta from 'novaposhta';
+import NovaPoshta from 'novaposhta_3';
 import Winston from 'winston';
 import WinstonFormatter from 'winston-console-formatter';
 
